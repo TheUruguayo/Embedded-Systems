@@ -39,19 +39,19 @@
 void print_statistics(test, SIZE);
 
 /**Given an array of data and a length, prints the array to the screen*/
-void print_array(char* array, int lenght);
+unsigned char print_array(unsigned char* array, int lenght);
 
 /**Given an array of data and a length, returns the median value*/
-float find_median(char* array, int lenght);
+unsigned char find_median(unsigned char* array, int lenght);
 /**Given an array of data and a length, returns the mean*/
-float find_mean(char* array, int lenght);
+unsigned char find_mean(unsigned char* array, int lenght);
 /*Given an array of data and a length, returns the maximum*/
-float find_maximum(char* array, int lenght);
+unsigned char find_maximum(unsigned char* array, int lenght);
 /* Given an array of data and a length, returns the minimum*/
-float find_minimum(char* array, int lenght);
+unsigned char find_minimum(unsigned char* array, int lenght);
 /**Given an array of data and a length, sorts the array from largest to smallest.
 (The zeroth Element should be the largest value, and the last element(n - 1)
 should be the smallest value.)*/
-float sort_array(char*  array, int lenght);
+unsigned char sort_array(unsigned char*  array, int lenght);
 
 #endif /* __STATS_H__ */
